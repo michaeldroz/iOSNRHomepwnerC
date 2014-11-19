@@ -14,12 +14,13 @@ class Item: NSObject {
     var valueInDollars: Int?
     var serialNumber: String?
     let dateCreated: NSDate
+    let itemKey: String
     
     convenience init(random: Bool = false) {
         if random {
             let randomAdjectiveList = ["Fluffy", "Rusty", "Shiny"]
             let randomNounList = ["Bear", "Spork", "Mac"]
-
+            
             let adjectiveIndex = Int(arc4random_uniform(UInt32(randomAdjectiveList.count)))
             let nounIndex = Int(arc4random_uniform(UInt32(randomNounList.count)))
             let name = "\(randomAdjectiveList[adjectiveIndex]) \(randomNounList[nounIndex])"
@@ -51,6 +52,9 @@ class Item: NSObject {
         self.valueInDollars = valueInDollars
         self.serialNumber = serialNumber
         dateCreated = NSDate()
+        
+        let uuid = NSUUID()
+        itemKey = uuid.UUIDString
         
         super.init()
     }

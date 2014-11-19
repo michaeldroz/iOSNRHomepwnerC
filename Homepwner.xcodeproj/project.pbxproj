@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2131E6AA1A1D1A1D00320F69 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2131E6A91A1D1A1D00320F69 /* ImageStore.swift */; };
 		6B12609719E1D30B00DCF719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B12609619E1D30B00DCF719 /* AppDelegate.swift */; };
 		6B12609E19E1D30B00DCF719 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B12609D19E1D30B00DCF719 /* Images.xcassets */; };
 		6B1260A119E1D30B00DCF719 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B12609F19E1D30B00DCF719 /* LaunchScreen.xib */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2131E6A91A1D1A1D00320F69 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		6B12609119E1D30B00DCF719 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B12609519E1D30B00DCF719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B12609619E1D30B00DCF719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				6B12609419E1D30B00DCF719 /* Supporting Files */,
 				6B1260B619E1D39300DCF719 /* ItemsViewController.swift */,
 				6BBC96A719EB5514001F0C2B /* DetailViewController.swift */,
+				2131E6A91A1D1A1D00320F69 /* ImageStore.swift */,
 				6BBC96A819EB5514001F0C2B /* DetailViewController.xib */,
 				6B360BE119E1E57C00DCEDB6 /* ItemCell.swift */,
 				6B360BE319E1E59A00DCEDB6 /* ItemCell.xib */,
@@ -233,6 +236,7 @@
 				6B1260B719E1D39300DCF719 /* ItemsViewController.swift in Sources */,
 				6BBC96A919EB5514001F0C2B /* DetailViewController.swift in Sources */,
 				6B1260BB19E1D77500DCF719 /* ItemStore.swift in Sources */,
+				2131E6AA1A1D1A1D00320F69 /* ImageStore.swift in Sources */,
 				6B12609719E1D30B00DCF719 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
