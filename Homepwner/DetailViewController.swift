@@ -87,6 +87,8 @@ class DetailViewController: UIViewController, UINavigationControllerDelegate, UI
             imagePicker.sourceType = .PhotoLibrary
         }
         
+        imagePicker.allowsEditing = true
+        
         imagePicker.delegate = self
         
         presentViewController(imagePicker, animated: true, completion: nil)
@@ -95,7 +97,8 @@ class DetailViewController: UIViewController, UINavigationControllerDelegate, UI
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
         
         // Get picked image from info dictionary
-        let image = info[UIImagePickerControllerOriginalImage] as UIImage
+        //If run into problems look back here. I changed info[UIImagePickerControllerOriginalImage to Edited
+        let image = info[UIImagePickerControllerEditedImage] as UIImage
         
         if let key = item?.itemKey {
             imageStore.setImage(image, forKey: key)
