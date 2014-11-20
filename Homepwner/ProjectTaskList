@@ -6,6 +6,11 @@
 
 3. Updated itemViewControllers for each unique user of my system.
 
+4. From an earlier challenge change the text for the delete button on cell deletion to something else. The below method will get it done but I am unclear on how to use it.
+
+optional func tableView(_ tableView: UITableView,
+titleForDeleteConfirmationButtonForRowAtIndexPath indexPath: NSIndexPath) -> String!
+
 
 //Might be interesting.
 
