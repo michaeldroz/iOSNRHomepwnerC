@@ -1,0 +1,18 @@
+//This is a list of stuff I'd like to do:
+
+1. New vew controller that displays a list of users who own "item lists" on Homepwner.
+
+2. New models that represent the lists for each user of the system.
+
+3. Updated itemViewControllers for each unique user of my system.
+
+
+//Might be interesting.
+
+
+**Bugs**
+>The keyboard needs to go away.
+>Images seemed to be lost after a rebuild/deploy but items dont't. Images seem to persist when you simply take focus off of the app and put it back into focus. (FIXED)
+>If you add a dollar sign $ in front of the value then no value is returned on the display.
+>Image are no longer deleted even though there seems to be specific code to delete tehm on page 174. Might have something to do with the way that I implemented the hack for deletebutton.hidden = yes. 
+

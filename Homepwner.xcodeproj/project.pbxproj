@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2131E6AA1A1D1A1D00320F69 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2131E6A91A1D1A1D00320F69 /* ImageStore.swift */; };
+		2131E6AC1A1D600600320F69 /* ProjectTaskList in Resources */ = {isa = PBXBuildFile; fileRef = 2131E6AB1A1D600600320F69 /* ProjectTaskList */; };
 		6B12609719E1D30B00DCF719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B12609619E1D30B00DCF719 /* AppDelegate.swift */; };
 		6B12609E19E1D30B00DCF719 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B12609D19E1D30B00DCF719 /* Images.xcassets */; };
 		6B1260A119E1D30B00DCF719 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B12609F19E1D30B00DCF719 /* LaunchScreen.xib */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		2131E6A91A1D1A1D00320F69 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		2131E6AB1A1D600600320F69 /* ProjectTaskList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProjectTaskList; sourceTree = "<group>"; };
 		6B12609119E1D30B00DCF719 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B12609519E1D30B00DCF719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B12609619E1D30B00DCF719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				6BBC96A819EB5514001F0C2B /* DetailViewController.xib */,
 				6B360BE119E1E57C00DCEDB6 /* ItemCell.swift */,
 				6B360BE319E1E59A00DCEDB6 /* ItemCell.xib */,
+				2131E6AB1A1D600600320F69 /* ProjectTaskList */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2131E6AC1A1D600600320F69 /* ProjectTaskList in Resources */,
 				6B360BE419E1E59A00DCEDB6 /* ItemCell.xib in Resources */,
 				6B1260A119E1D30B00DCF719 /* LaunchScreen.xib in Resources */,
 				6BBC96AA19EB5514001F0C2B /* DetailViewController.xib in Resources */,

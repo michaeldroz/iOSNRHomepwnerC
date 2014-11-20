@@ -8,6 +8,7 @@
 import UIKit
 
 class DetailViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITextFieldDelegate {
+    @IBOutlet weak var deletePhoto: UIButton!
     
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var serialNumberField: UITextField!
@@ -16,6 +17,12 @@ class DetailViewController: UIViewController, UINavigationControllerDelegate, UI
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var toolbar: UIToolbar!
     
+    @IBOutlet weak var hideDeleteButton: UIButton!
+    
+    //Silver Challenge
+    @IBAction func deletePhoto(sender: AnyObject) {
+        imageView.image = nil
+    }
     
     let itemStore: ItemStore
     let imageStore: ImageStore
@@ -36,6 +43,7 @@ class DetailViewController: UIViewController, UINavigationControllerDelegate, UI
         fatalError("User init(itemStore:)")
     }
     
+
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
         // Clear first responder
@@ -71,7 +79,14 @@ class DetailViewController: UIViewController, UINavigationControllerDelegate, UI
         if let key = item?.itemKey {
             if let imageToDisplay = imageStore.imageForKey(key) {
                 imageView.image = imageToDisplay
+                if hideDeleteButton.hidden == true {
+                    hideDeleteButton.hidden = false
+                }
             }
+        }
+        
+        if imageView.image == nil {
+            hideDeleteButton.hidden = true
         }
     }
     
@@ -94,6 +109,7 @@ class DetailViewController: UIViewController, UINavigationControllerDelegate, UI
         presentViewController(imagePicker, animated: true, completion: nil)
     }
     
+    //Mark: - Image Picker Controller
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
         
         // Get picked image from info dictionary
@@ -112,6 +128,7 @@ class DetailViewController: UIViewController, UINavigationControllerDelegate, UI
         dismissViewControllerAnimated(true, completion: nil)
     }
     
+    //MARK: - Actions
     @IBAction func backgroundTapped(sender: AnyObject) {
         view.endEditing(true)
     }

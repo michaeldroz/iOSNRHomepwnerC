@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DE6B84BE-BF77-4474-96F4-FBF95D166A53</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Homepwner</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4137063F5788447A9312393DA848F96855273E60</key>
+		<string>https://github.com/michaeldroz/iOSNRHomepwnerC.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Homepwner.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4137063F5788447A9312393DA848F96855273E60</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/michaeldroz/iOSNRHomepwnerC.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4137063F5788447A9312393DA848F96855273E60</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4137063F5788447A9312393DA848F96855273E60</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSNRHomepwnerC</string>
+		</dict>
+	</array>
+</dict>
+</plist>
